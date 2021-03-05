@@ -1,0 +1,176 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 2113236 */
+  src: url('//at.alicdn.com/t/font_2113236_qtxl9j8o87a.eot');
+  src: url('//at.alicdn.com/t/font_2113236_qtxl9j8o87a.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_2113236_qtxl9j8o87a.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_2113236_qtxl9j8o87a.woff') format('woff'),
+  url('//at.alicdn.com/t/font_2113236_qtxl9j8o87a.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_2113236_qtxl9j8o87a.svg#iconfont') format('svg');
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+
+.container {
+  height: 100%;
+
+}
+
+.head {
+  background-color: #d8d6d6;
+  color: rgb(29, 29, 29);
+  font-size: 30px;
+
+}
+
+.logo {
+  height: 60px;
+  justify-content: space-around;
+}
+
+.head>span {
+  position: absolute;
+  justify-content: space-around;
+  line-height: 60px;
+  margin-left: 20px;
+}
+
+.main {
+  background-color: #F6F6F6;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+}
+
+.head>span {
+  padding-left: 100px;
+}
+
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 26px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+
+}
+
+main {
+  margin: 0;
+  padding: 0;
+}
+
+.el-header {
+
+  line-height: 60px;
+  height: 10%;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  position: fixed;
+}
+
+
+
+main::-webkit-scrollbar {
+  display: none;
+}
+
+
+.el-footer {
+  background-color: #B3C0D1;
+  color: #333;
+  text-align: center;
+  line-height: 60px;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  border-radius: 0px;
+}
+
+.el-aside {
+  background-color: #4c5d70;
+  color: #333;
+  text-align: center;
+  line-height: 200px;
+  height: 100%;
+  overflow-x: hidden;
+  position: fixed;
+  z-index: 11;
+ 
+}
+
+.el-main {
+  color: #333;
+  text-align: center;
+  line-height: 160px;
+
+}
+
+.img {
+  width: 100%;
+  height: 110%;
+  cursor: pointer;
+}
+
+.el-button {
+  background-color: #B3C0D1;
+  border: 1px solid #B3C0D1;
+}
+
+
+.tip {
+  padding-top: 160px;
+  height: 200px;
+  width: 1000px;
+  font-size: 20px;
+}
+
+.mes {
+  padding-left: 200px;
+}
+
+.span {
+  position: absolute;
+  right: 200px;
+  color: #333;
+}
+.menu{
+  margin-top: 100px;
+}
+.box {
+  margin-top: 400px;
+  margin-left: 200px;
+  width: 100%;
+  left: 180px;
+  display: flex;
+  margin-bottom: 200px;
+}
+.el-carousel {
+  position: absolute;
+  width: 100%;
+  margin-top: -340px;
+  margin-left: 0px;
+}
+
+.img1{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+ 
+ 
+}
+.text item{
+ 
+}
